@@ -1,0 +1,307 @@
+{
+  "description": "CPR compression rate per second",
+  "videoFile": "3_2_3.MOV",
+  "unit": "compressions/min",
+  "data": [
+    {
+      "second": 0,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 1,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 2,
+      "rate": 108,
+      "performer_id": 1
+    },
+    {
+      "second": 3,
+      "rate": 108,
+      "performer_id": 1
+    },
+    {
+      "second": 4,
+      "rate": 106,
+      "performer_id": 1
+    },
+    {
+      "second": 5,
+      "rate": 108,
+      "performer_id": 1
+    },
+    {
+      "second": 6,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 7,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 8,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 9,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 10,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 11,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 12,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 13,
+      "rate": 108,
+      "performer_id": 2
+    },
+    {
+      "second": 14,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 15,
+      "rate": 108,
+      "performer_id": 2
+    },
+    {
+      "second": 16,
+      "rate": 108,
+      "performer_id": 2
+    },
+    {
+      "second": 17,
+      "rate": 108,
+      "performer_id": 2
+    },
+    {
+      "second": 18,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 19,
+      "rate": 108,
+      "performer_id": 2
+    },
+    {
+      "second": 20,
+      "rate": 108,
+      "performer_id": 2
+    },
+    {
+      "second": 21,
+      "rate": 107,
+      "performer_id": 2
+    },
+    {
+      "second": 22,
+      "rate": 108,
+      "performer_id": 2
+    },
+    {
+      "second": 23,
+      "rate": 108,
+      "performer_id": 2
+    },
+    {
+      "second": 24,
+      "rate": 108,
+      "performer_id": 2
+    },
+    {
+      "second": 25,
+      "rate": 108,
+      "performer_id": 2
+    },
+    {
+      "second": 26,
+      "rate": 108,
+      "performer_id": 2
+    },
+    {
+      "second": 27,
+      "rate": 109,
+      "performer_id": 2
+    },
+    {
+      "second": 28,
+      "rate": 108,
+      "performer_id": 2
+    },
+    {
+      "second": 29,
+      "rate": 108,
+      "performer_id": 2
+    },
+    {
+      "second": 30,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 31,
+      "rate": 108,
+      "performer_id": 2
+    },
+    {
+      "second": 32,
+      "rate": 108,
+      "performer_id": 2
+    },
+    {
+      "second": 33,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 34,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 35,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 36,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 37,
+      "rate": 111,
+      "performer_id": 2
+    },
+    {
+      "second": 38,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 39,
+      "rate": 106,
+      "performer_id": 2
+    },
+    {
+      "second": 40,
+      "rate": 108,
+      "performer_id": 2
+    },
+    {
+      "second": 41,
+      "rate": 107,
+      "performer_id": 2
+    },
+    {
+      "second": 42,
+      "rate": 106,
+      "performer_id": 2
+    },
+    {
+      "second": 43,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 44,
+      "rate": 110,
+      "performer_id": 2
+    },
+    {
+      "second": 45,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 46,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 47,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 48,
+      "rate": 108,
+      "performer_id": 3
+    },
+    {
+      "second": 49,
+      "rate": 108,
+      "performer_id": 3
+    },
+    {
+      "second": 50,
+      "rate": 110,
+      "performer_id": 3
+    },
+    {
+      "second": 51,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 52,
+      "rate": 108,
+      "performer_id": 3
+    },
+    {
+      "second": 53,
+      "rate": 108,
+      "performer_id": 3
+    },
+    {
+      "second": 54,
+      "rate": 107,
+      "performer_id": 3
+    },
+    {
+      "second": 55,
+      "rate": 109,
+      "performer_id": 3
+    },
+    {
+      "second": 56,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 57,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 58,
+      "rate": null,
+      "performer_id": null
+    },
+    {
+      "second": 59,
+      "rate": 108,
+      "performer_id": 4
+    }
+  ]
+}

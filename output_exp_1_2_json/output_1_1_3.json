@@ -1,0 +1,251 @@
+{
+  "description": "CPR compression rate per second",
+  "videoFile": "1_1_3.MOV",
+  "unit": "compressions/min",
+  "data": [
+    {
+      "second": 0,
+      "rate": null
+    },
+    {
+      "second": 1,
+      "rate": 118
+    },
+    {
+      "second": 2,
+      "rate": 114
+    },
+    {
+      "second": 3,
+      "rate": 108
+    },
+    {
+      "second": 4,
+      "rate": 108
+    },
+    {
+      "second": 5,
+      "rate": 108
+    },
+    {
+      "second": 6,
+      "rate": 107
+    },
+    {
+      "second": 7,
+      "rate": 107
+    },
+    {
+      "second": 8,
+      "rate": 107
+    },
+    {
+      "second": 9,
+      "rate": 108
+    },
+    {
+      "second": 10,
+      "rate": 108
+    },
+    {
+      "second": 11,
+      "rate": 107
+    },
+    {
+      "second": 12,
+      "rate": 105
+    },
+    {
+      "second": 13,
+      "rate": 106
+    },
+    {
+      "second": 14,
+      "rate": 109
+    },
+    {
+      "second": 15,
+      "rate": 108
+    },
+    {
+      "second": 16,
+      "rate": 107
+    },
+    {
+      "second": 17,
+      "rate": 108
+    },
+    {
+      "second": 18,
+      "rate": 109
+    },
+    {
+      "second": 19,
+      "rate": 108
+    },
+    {
+      "second": 20,
+      "rate": 108
+    },
+    {
+      "second": 21,
+      "rate": 106
+    },
+    {
+      "second": 22,
+      "rate": 105
+    },
+    {
+      "second": 23,
+      "rate": 108
+    },
+    {
+      "second": 24,
+      "rate": 109
+    },
+    {
+      "second": 25,
+      "rate": 108
+    },
+    {
+      "second": 26,
+      "rate": 108
+    },
+    {
+      "second": 27,
+      "rate": 108
+    },
+    {
+      "second": 28,
+      "rate": 109
+    },
+    {
+      "second": 29,
+      "rate": 109
+    },
+    {
+      "second": 30,
+      "rate": 108
+    },
+    {
+      "second": 31,
+      "rate": 108
+    },
+    {
+      "second": 32,
+      "rate": 108
+    },
+    {
+      "second": 33,
+      "rate": 107
+    },
+    {
+      "second": 34,
+      "rate": 107
+    },
+    {
+      "second": 35,
+      "rate": 108
+    },
+    {
+      "second": 36,
+      "rate": 108
+    },
+    {
+      "second": 37,
+      "rate": 107
+    },
+    {
+      "second": 38,
+      "rate": 107
+    },
+    {
+      "second": 39,
+      "rate": 107
+    },
+    {
+      "second": 40,
+      "rate": 108
+    },
+    {
+      "second": 41,
+      "rate": 107
+    },
+    {
+      "second": 42,
+      "rate": 108
+    },
+    {
+      "second": 43,
+      "rate": 109
+    },
+    {
+      "second": 44,
+      "rate": 108
+    },
+    {
+      "second": 45,
+      "rate": 107
+    },
+    {
+      "second": 46,
+      "rate": 107
+    },
+    {
+      "second": 47,
+      "rate": 106
+    },
+    {
+      "second": 48,
+      "rate": 107
+    },
+    {
+      "second": 49,
+      "rate": 108
+    },
+    {
+      "second": 50,
+      "rate": 108
+    },
+    {
+      "second": 51,
+      "rate": 109
+    },
+    {
+      "second": 52,
+      "rate": 109
+    },
+    {
+      "second": 53,
+      "rate": 108
+    },
+    {
+      "second": 54,
+      "rate": 108
+    },
+    {
+      "second": 55,
+      "rate": 108
+    },
+    {
+      "second": 56,
+      "rate": 108
+    },
+    {
+      "second": 57,
+      "rate": 108
+    },
+    {
+      "second": 58,
+      "rate": 108
+    },
+    {
+      "second": 59,
+      "rate": 108
+    },
+    {
+      "second": 60,
+      "rate": 106
+    }
+  ]
+}
