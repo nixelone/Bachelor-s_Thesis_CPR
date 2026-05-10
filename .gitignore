@@ -19,6 +19,12 @@ mediapipe_models
 output_videos
 output_jsons
 yolo_models
+metronome_records
+old_versions_main
+experiment_videos
+output_exp_1_2_video
+output_exp_3_video
+.python-version
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
