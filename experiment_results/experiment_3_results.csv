@@ -1,0 +1,10 @@
+Experiment,Scenario_ID,Scenario_Name,Position_ID,Camera_Angle,File_Name,N_Total,T_Correct,T_Wrong,T_Null,Target_Acquisition_Rate_(%)
+3,1,Static Bystander,1,0 Degrees (Camera Facing),output_3_1_1.json,60,60,0,0,100.0
+3,1,Static Bystander,2,45 Degrees,output_3_1_2.json,60,60,0,0,100.0
+3,1,Static Bystander,3,90 Degrees (Side View),output_3_1_3.json,60,55,0,5,91.67
+3,2,Chaotic Bystander,1,0 Degrees (Camera Facing),output_3_2_1.json,60,60,0,0,100.0
+3,2,Chaotic Bystander,2,45 Degrees,output_3_2_2.json,60,58,0,2,96.67
+3,2,Chaotic Bystander,3,90 Degrees (Side View),output_3_2_3.json,60,35,0,25,58.33
+3,3,Rhythmic False-Positive,1,0 Degrees (Camera Facing),output_3_3_1.json,60,60,0,0,100.0
+3,3,Rhythmic False-Positive,2,45 Degrees,output_3_3_2.json,60,59,0,1,98.33
+3,3,Rhythmic False-Positive,3,90 Degrees (Side View),output_3_3_3.json,60,52,0,8,86.67

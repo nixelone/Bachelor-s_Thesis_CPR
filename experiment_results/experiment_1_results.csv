@@ -1,0 +1,10 @@
+Experiment,Scenario_ID,Scenario_Name,Position_ID,Camera_Angle,File_Name,N_Total,N_Valid,Uptime_Rate_(%),MAE
+1,1,Control (Tripod),1,0 Degrees (Camera Facing),output_1_1_1.json,60,60,100.0,2.0167
+1,1,Control (Tripod),2,45 Degrees,output_1_1_2.json,60,59,98.33,2.1695
+1,1,Control (Tripod),3,90 Degrees (Side View),output_1_1_3.json,60,59,98.33,2.4407
+1,2,Realistic Drift (Kneeling),1,0 Degrees (Camera Facing),output_1_2_1.json,60,59,98.33,2.3729
+1,2,Realistic Drift (Kneeling),2,45 Degrees,output_1_2_2.json,60,60,100.0,2.1667
+1,2,Realistic Drift (Kneeling),3,90 Degrees (Side View),output_1_2_3.json,60,60,100.0,2.0833
+1,3,Extreme Oscillation (Panicking),1,0 Degrees (Camera Facing),output_1_3_1.json,60,27,45.0,3.963
+1,3,Extreme Oscillation (Panicking),2,45 Degrees,output_1_3_2.json,60,54,90.0,2.5741
+1,3,Extreme Oscillation (Panicking),3,90 Degrees (Side View),output_1_3_3.json,60,58,96.67,2.2414

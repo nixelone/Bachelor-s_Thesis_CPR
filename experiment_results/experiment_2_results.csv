@@ -1,0 +1,16 @@
+Experiment,Scenario_ID,Scenario_Name,Position_ID,Camera_Angle,File_Name,N_Total,N_Valid,Uptime_Rate_(%),MAE
+2,1,Fatigue Curve,1,0 Degrees (Camera Facing),output_2_1_1.json,60,60,100.0,1.6667
+2,1,Fatigue Curve,2,45 Degrees,output_2_1_2.json,60,60,100.0,1.2333
+2,1,Fatigue Curve,3,90 Degrees (Side View),output_2_1_3.json,60,60,100.0,1.5333
+2,2,Adrenaline Spike,1,0 Degrees (Camera Facing),output_2_2_1.json,60,59,98.33,2.678
+2,2,Adrenaline Spike,2,45 Degrees,output_2_2_2.json,60,60,100.0,3.2333
+2,2,Adrenaline Spike,3,90 Degrees (Side View),output_2_2_3.json,60,2,3.33,4.0
+2,3,Rescuer Swap,1,0 Degrees (Camera Facing),output_2_3_1.json,60,60,100.0,3.2667
+2,3,Rescuer Swap,2,45 Degrees,output_2_3_2.json,60,59,98.33,3.4915
+2,3,Rescuer Swap,3,90 Degrees (Side View),output_2_3_3.json,60,38,63.33,2.6316
+2,4,Boundary Extreme (60),1,0 Degrees (Camera Facing),output_2_4_1.json,60,3,5.0,13.0
+2,4,Boundary Extreme (60),2,45 Degrees,output_2_4_2.json,60,1,1.67,13.0
+2,4,Boundary Extreme (60),3,90 Degrees (Side View),output_2_4_3.json,60,1,1.67,18.0
+2,5,Boundary Extreme (160),1,0 Degrees (Camera Facing),output_2_5_1.json,60,58,96.67,3.7586
+2,5,Boundary Extreme (160),2,45 Degrees,output_2_5_2.json,60,59,98.33,4.8305
+2,5,Boundary Extreme (160),3,90 Degrees (Side View),output_2_5_3.json,60,2,3.33,4.5

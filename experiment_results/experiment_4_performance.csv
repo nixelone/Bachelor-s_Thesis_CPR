@@ -1,0 +1,19 @@
+File_Name,Subject_Load,Total_Compute_Time_sec,Video_Duration_sec,Overall_FPS,Real_Time_Factor_(RTF),Avg_YOLO_Latency_ms,Avg_Logic_Latency_ms
+1_1_1.MOV,k=1 (Rescuer Only),143.64,61.1,10.16,2.351,65.31,17.78
+1_1_2.MOV,k=1 (Rescuer Only),140.96,60.12,10.19,2.345,64.81,17.8
+1_1_3.MOV,k=1 (Rescuer Only),140.43,61.17,10.37,2.296,63.59,17.61
+1_2_1.MOV,k=1 (Rescuer Only),136.41,59.84,10.51,2.28,62.94,16.85
+1_2_2.MOV,k=1 (Rescuer Only),142.12,60.34,10.17,2.355,64.81,17.59
+1_2_3.MOV,k=1 (Rescuer Only),137.61,60.01,10.43,2.293,63.32,16.92
+1_3_1.MOV,k=2 (Rescuer Only),150.61,60.94,9.65,2.471,69.56,18.79
+1_3_2.MOV,k=2 (Rescuer Only),149.75,60.76,9.68,2.465,71.2,17.58
+1_3_3.MOV,k=2 (Rescuer Only),151.15,60.67,9.6,2.491,71.26,17.62
+3_1_1.MOV,k=2 (Rescuer + Bystander),172.16,60.15,10.42,2.862,61.37,20.52
+3_1_2.MOV,k=2 (Rescuer + Bystander),178.58,60.66,10.12,2.944,63.05,21.57
+3_1_3.MOV,k=2 (Rescuer + Bystander),177.49,60.05,10.14,2.956,62.6,21.28
+3_2_1.MOV,k=2 (Rescuer + Bystander),160.53,60.42,11.2,2.657,57.72,18.88
+3_2_2.MOV,k=2 (Rescuer + Bystander),180.48,60.18,9.97,2.999,63.33,22.1
+3_2_3.MOV,k=2 (Rescuer + Bystander),177.97,59.77,10.05,2.977,63.3,21.69
+3_3_1.MOV,k=2 (Rescuer + Bystander),182.85,60.69,9.86,3.013,64.23,22.75
+3_3_2.MOV,k=2 (Rescuer + Bystander),183.12,61.06,9.92,2.999,64.11,22.33
+3_3_3.MOV,k=2 (Rescuer + Bystander),175.91,60.54,10.24,2.906,62.78,20.9
