@@ -1,4 +1,12 @@
-ultralytics
 PyWavelets
 numpy
 opencv-python
+matplotlib
+pillow
+pyyaml
+requests
+scipy
+psutil
+polars
+ultralytics-thop
+lap

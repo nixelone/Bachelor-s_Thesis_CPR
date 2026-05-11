@@ -206,15 +206,19 @@ def draw_overlays(frame, results, tracker_db, top_3, active_id, final_output):
                 (0, 255, 0) if final_output is not None else (0, 0, 255), 3)
 
 
-def main(source="videos/v2.mp4", save_output=True,
-         output_json_path="cpr_results_6.json", buffer_seconds=2.5):
+def main():
+    source = "videos/v2.mp4"
+    output_json_path = "cpr_results_6.json"
+    output_video_path = "cpr_analysis_output_final_6.mp4"
+    save_output = True
+    buffer_seconds = 2.5
 
     model     = YOLO("yolo_models/yolo11x-pose.pt")
     cap       = cv2.VideoCapture(source)
     W, H      = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
     fps       = cap.get(cv2.CAP_PROP_FPS)  # keep as float to avoid duration drift
 
-    out = cv2.VideoWriter("cpr_analysis_output_final_6.mp4", cv2.VideoWriter_fourcc(*"mp4v"), fps, (W, H)) if save_output else None
+    out = cv2.VideoWriter(output_video_path, cv2.VideoWriter_fourcc(*"mp4v"), fps, (W, H)) if save_output else None
 
     tracker_db        = {}
     active_id         = None
@@ -243,7 +247,7 @@ def main(source="videos/v2.mp4", save_output=True,
 
         frame_count += 1
         gray         = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        results      = model.track(frame, persist=True, device="0", verbose=False)
+        results      = model.track(frame, persist=True, verbose=False)
 
         # Build a mask that excludes detected people so optical flow only
         # tracks background pixels for a clean camera-motion estimate.
@@ -360,4 +364,4 @@ def main(source="videos/v2.mp4", save_output=True,
 
 
 if __name__ == "__main__":
-    main(buffer_seconds=2.5)  # try 2.0 or 3.0 to experiment
+    main()

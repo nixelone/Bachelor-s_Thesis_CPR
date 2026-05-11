@@ -59,23 +59,47 @@ Processing throughput on an RTX 5070 Ti: ~10 FPS / RTF ≈ 2.4–2.9 (real-time 
 ---
 
 ## Setup
-
-**Requirements:** Python 3.10+, CUDA-capable GPU recommended.
-
+ 
+**Prerequisites:** Python 3.10+ and a virtual environment:
+ 
 ```bash
 git clone https://github.com/nixelone/Bachelor-s_Thesis_CPR
 cd Bachelor-s_Thesis_CPR
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+```
+ 
+### Option A — Standard Hardware (Most Users)
+ 
+For Mac, CPU-only, or NVIDIA GTX/RTX 20, 30, or 40-series GPUs:
+ 
+```bash
+# 1. Install stable PyTorch
+pip install torch torchvision
+ 
+# 2. Install pipeline & dependencies
+pip install ultralytics
 pip install -r requirements.txt
 ```
-
-**Download the YOLO model:**
-
+ 
+### Option B — NVIDIA RTX 50-Series (Blackwell Architecture)
+ 
+For RTX 5070 Ti, 5080, or 5090 users. Requires CUDA 12.8+ — see the [GPU compatibility note](#gpu-compatibility-note) below.
+ 
 ```bash
-# The model is downloaded automatically by Ultralytics on first run, or manually:
-python -c "from ultralytics import YOLO; YOLO('yolo11x-pose.pt')"
-# Move the downloaded file into yolo_models/
+# 1. Install Blackwell-compatible PyTorch
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+ 
+# 2. Install Ultralytics without overwriting the PyTorch build
+pip install ultralytics --no-deps
+ 
+# 3. Install supporting dependencies
+pip install -r requirements.txt
 ```
-
+ 
+> #### GPU Compatibility Note
+> The RTX 50-series uses NVIDIA's Blackwell architecture (compute capability sm_120), which is **not supported by stable PyTorch releases** as of early 2026. Option B installs a PyTorch nightly build with CUDA 12.8 support. If you encounter errors, check the [PyTorch Get Started page](https://pytorch.org/get-started/locally/) for the latest recommended install command for your platform. Linux / WSL2 is the most reliable environment for Blackwell at this time.
+ 
 ---
 
 ## Usage
@@ -88,8 +112,9 @@ By default, `main()` is called with `buffer_seconds=2.5`. Edit the `main()` call
 
 ```python
 # Inside Main.py — configure these before running:
-source          = "your_video.mp4"
-output_json_path = "output.json"
+source = "videos/v2.mp4"
+output_json_path = "cpr_results.json"
+output_video_path = "cpr_analysis_output.mp4"
 save_output     = True          # set False to skip annotated video rendering
 buffer_seconds  = 2.5           # try 2.0 (faster, noisier) or 3.0 (smoother, slower)
 ```

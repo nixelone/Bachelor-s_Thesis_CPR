@@ -258,7 +258,7 @@ def main(source, save_output=True, output_json_path="cpr_results.json",
 
         frame_count += 1
         gray         = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        results      = model.track(frame, persist=True, device="0", verbose=False)
+        results      = model.track(frame, persist=True, verbose=False)
 
         # Build a mask that excludes detected people so optical flow only
         # tracks background pixels for a clean camera-motion estimate.
