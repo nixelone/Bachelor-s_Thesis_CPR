@@ -1,0 +1,4 @@
+ultralytics
+PyWavelets
+numpy
+opencv-python
